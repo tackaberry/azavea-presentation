@@ -1,0 +1,403 @@
+export { default as theme } from "./components/Theme";
+import Layout from "./components/Layout";
+import Footnote from "./components/Footnote";
+import Progress from "./components/Progress";
+import {
+  ORANGE,
+  BRIGHT_ORANGE,
+  MAROON,
+  BLUE,
+  BRIGHT_BLUE,
+  GREEN,
+  LIGHT_GREEN,
+  BLACK,
+  WHITE,
+  GREY,
+  LIGHT_GREY,
+  DARK_GREY,
+} from "./components/Colours.js";
+
+import Brett from "./images/brett.jpg";
+import Azavea from "./images/azavea.png";
+import TechForGood from "./images/tech4good.jpg";
+import RebelLogoWhite from "./images/Rebel-com-large-white.png";
+import OttawaCivicTech from "./images/ottawa-civic-tech.png"
+import Img001 from "./images/001.png";
+import Img001a from "./images/001a.png";
+import Img002 from "./images/002.png";
+import Img003 from "./images/003.png";
+import Img004a from "./images/004a.png";
+import Img004b from "./images/004b.png";
+import Img005 from "./images/005.png";
+import Img006a from "./images/006a.png";
+import Img006b from "./images/006b.png";
+import Img006c from "./images/006c.png";
+import Img006d from "./images/006d.png";
+import Img006e from "./images/006e.png";
+import Img006f from "./images/006f.png";
+
+<Footer>
+
+<Progress />
+
+</Footer>
+
+<Layout color={DARK_GREY}>
+
+| Key                                | Description           |
+| ---------------------------------- | --------------------- |
+| Left Arrow, Page Up, Shift + Space | Go to previous slide  |
+| Right Arrow, Page Down, Space      | Go to next slide      |
+| Option + P                         | Toggle Presenter Mode |
+| Option + O                         | Toggle Overview Mode  |
+| Option + G                         | Toggle Grid Mode      |
+
+[This presentation on github](https://github.com/tackaberry/impact-hub-bbl-tech4good)
+
+</Layout>
+
+---
+
+<Layout light color={WHITE}>
+
+# A Special Presentation 
+
+<Split>
+
+<Image src={Azavea} style={{ height: "180px", width: "200px" }} />
+
+### For Azavea
+
+</Split>
+
+### May 25, 2022
+
+## Brett Tackaberry
+
+</Layout>
+
+---
+
+<Layout color="#292e42">
+
+<Split>
+
+<Image src={Brett} style={{ height: "600px", width: "600px" }} />
+
+# About me
+
+help people do awesome things with technology
+
+help companies grow, help teams do better
+
+use technology make the world a better place
+
+</Split>
+
+</Layout>
+
+---
+
+# Values ⇨ Mission
+
+<Invert>
+  <Image src={TechForGood} style={{ height: "600px", width: "800px" }} />
+</Invert>
+
+<Footnote>Borrowed in parts from xkcd.</Footnote>
+
+---
+
+<Layout >
+
+# Civic tech
+
+<Split>
+
+<Image src={OttawaCivicTech} style={{ height: "300px", width: "400px" }} />
+
+##### Helps citizens and government work together to solve civic challenges through communication that helps participcation, engagement, service delivery
+
+##### Gov't using modern practices to improve service delivery
+
+##### Citizens building tools to fill gaps in govt, communication and sharing experience
+
+</Split>
+
+<Footnote>
+
+More: [Ottawa Civic Tech](https://ottawacivictech.ca/), [CodeForCanada](https://codefor.ca/), and so much more around the world - Code for America, Code for Australia, [G0v](https://g0v.asia)
+
+</Footnote>
+
+</Layout>
+
+---
+
+
+<Layout color="#292e42">
+
+<Image src={RebelLogoWhite} style={{ height: "100px", width: "450px" }} />
+
+- Sell domain names, websites, hosting, ecommerce, email
+- Help small businesses across Canada succeed online
+- In business in Ottawa for 20+ years
+
+</Layout>
+
+---
+
+<Layout color={ORANGE}>
+
+<div style={{width:"900px", fontColor:"white"}}>
+
+# About me and how I communicate my ideas and work 
+
+</div>
+
+</Layout>
+
+---
+
+<Layout color={MAROON}>
+
+<div style={{width:"900px", fontColor:"white"}}>
+
+##### A situation where I had to make significant architectural design changes to a project you were leading. What prompted the need for architectural changes, what issues did I encounter as I implemented changes, what was the immediate result, and what are the lasting results?
+
+</div>
+
+</Layout>
+
+---
+
+<Layout light color={WHITE}>
+
+<Image src={Img001} style={{ height: "600px", width: "900px" }} />
+
+</Layout>
+
+
+---
+
+<Layout light color={WHITE}>
+
+<Image src={Img001a} style={{ height: "600px", width: "900px" }} />
+
+</Layout>
+
+
+---
+
+<Layout color={BLUE}>
+
+- SaaS - where customers buy and manage products
+- PaaS/IaaS - where customers can launch a website, host email, sell stuff
+
+</Layout>
+
+
+---
+
+<Layout color={GREEN}>
+
+- Transformed our front-end experience from .aspx pages to SSR React App
+- Specific redesign/rebuild like shopping cart (twice)
+- Adding products like Wordpress, Virtual Private Servers, Google Workspace
+- Operational, cost-savings measures like when we re-built backup to use cheaper storage
+- Changing payment provider or migrating our financial software
+- Ongoing efforts in data democratization and BI for the company
+
+</Layout>
+
+
+---
+
+<Layout color={GREEN}>
+
+- A recent scenario
+- A bit of a story to it
+- Clear outcomes
+- Software and operations and customer impact
+
+</Layout>
+
+
+---
+<Layout color={BRIGHT_ORANGE}>
+
+- Mystery and Intrigue🕵️
+- Changing terrain 
+- Dynamic actors
+- Iterative and experimental approach 🔬
+- Critical impact on the company ⭐
+- Lasting postive impact
+
+</Layout>
+
+---
+
+<Layout color={MAROON}>
+
+# An Urgent Incident is raised by Customer Service...
+
+- Slow down in our customer facing apps
+- Also alerted Prod Database is pinned
+- Not DNS DDoS, not platform attack
+
+<Image src={Img003} style={{ height: "300px", width: "500px" }} />
+
+</Layout>
+
+---
+
+<Layout color={BLACK}>
+
+<Image src={Img002} style={{ height: "320px", width: "600px" }} />
+
+# We investigate the traffic pattern
+
+- Lots of errors
+- Started after business hours
+
+</Layout>
+
+---
+
+<Layout color={BLACK}>
+
+<Split style={{height: "40%"}}>
+
+<Image src={Img004a} style={{ height: "280px", width: "600px", marginRight: "20px" }} />
+
+<Image src={Img004b} style={{ height: "280px", width: "600px" }} />
+
+</Split>
+
+# We take a Deeper dive into traffic
+
+- Login attempts at 100s per minute per ip address
+- Only affecting one reseller (we have 3)
+
+</Layout>
+
+---
+
+<Layout color={BLACK}>
+
+<Image src={Img005} style={{ height: "320px", width: "600px" }} />
+
+# We look at the pattern of failed log in attempts
+
+- Not real users / Not our customers
+- Credential stuffing (DoS)
+
+</Layout>
+
+---
+
+<Layout light color={WHITE}>
+
+<Image src={Img006a} style={{ height: "320px", width: "600px" }} />
+
+# Our first reaction...
+
+</Layout>
+
+---
+
+<Layout light color={WHITE}>
+
+<Image src={Img006b} style={{ height: "320px", width: "600px" }} />
+
+# Iteration #1 - Blocking manually
+
+- blocked individual ips
+- unmanageable
+
+</Layout>
+
+---
+
+<Layout light color={WHITE}>
+
+<Image src={Img006c} style={{ height: "320px", width: "600px" }} />
+
+# Iteration #2 - Quicker iterations on blocking
+
+- simple app, easy to deploy
+- worked until attack with dynamic ips cycling too quickly
+
+</Layout>
+
+---
+
+<Layout light color={WHITE}>
+
+<Image src={Img006d} style={{ height: "320px", width: "600px" }} />
+
+# Iteration #3 - Use Web Application Firewall 
+
+- experiment with rules - region, traffic pattern
+- not able to decipher real customer from bad actors
+
+</Layout>
+
+---
+
+<Layout light color={WHITE}>
+
+<Image src={Img006e} style={{ height: "320px", width: "600px" }} />
+
+# Iteration #4 - Update WAF Ip Block list from logs 
+
+- worked well but it took 120s for logs to become available
+- attackers were able to try 200 times in that timespan
+
+</Layout>
+
+---
+
+<Layout light color={WHITE}>
+
+<Image src={Img006f} style={{ height: "320px", width: "600px" }} />
+
+# Iteration #5 - Blocked ip database and app
+
+- Attacker blocked immediately after breaking the rules
+- Created front-end app to unblock customers
+- Created timeouts on blocked ips
+
+</Layout>
+
+---
+
+<Layout light color={WHITE}>
+
+# Final Iteration
+
+- No more disruptions
+- Still attacked continuously
+- Management-less solution
+- Prod is protected
+
+</Layout>
+
+---
+
+
+<Layout color={BLACK}>
+
+# Thank you 🙏
+
+- https://www.rebel.com
+
+- https://twitter.com/tackaberry
+
+- https://www.linkedin.com/in/tackaberry/
+
+- https://github.com/tackaberry
+
+</Layout>
+
+---
